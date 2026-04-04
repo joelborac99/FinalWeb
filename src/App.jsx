@@ -1,6 +1,6 @@
 import Navigation_Bar from './Pages/Navigation-Bar'
 import './App.css'
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import SeeAndDo from './Pages/see&do';
 import OurCommunities from './Pages/ourcommunities';
 import Stay from './Pages/stay';
@@ -14,6 +14,7 @@ function App() {
       <Navigation_Bar />
       
       <Routes>
+        <Route path='/' element={<Navigate to="/Home" replace />} />
         <Route path='/Home' element={<Home />} />
         <Route path='/SEE&DO' element={<SeeAndDo />} />
         <Route path='/STAY' element={<Stay />} />

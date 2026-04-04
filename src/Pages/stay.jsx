@@ -1,63 +1,60 @@
 import culture3 from '../assets/culture3.jpg'
 import culture4 from '../assets/culture4.jpg';
 import culture1 from '../assets/culture1.jpg';
-import wtg2 from '../assets/wtg2.jpg';
-import wtg3 from '../assets/wtg3.jpg';
-import wtg4 from '../assets/wtg4.jpg';
-import wtg5 from '../assets/wtg5.jpg';
-import wtg6 from '../assets/wtg6.jpg';
+import wts1 from '../assets/wts1.jpg';
+import wts2 from '../assets/wts2.jpg';
+import wts3 from '../assets/wts3.jpg';
+import wts4 from '../assets/wts4.jpg';
+import wts5 from '../assets/wts5.jpg';
+import wts6 from '../assets/wts6.jpg';
+import wts7 from '../assets/wts7.jpg';
 
 
 const cards = [
 
   {
     id: 1,
-    title: "Kuyang-Kuyang",
+    title: "Crystal Beach Resort",
     desc: "Luxury boutique beach resort designed for travelers seeking exclusivity, tranquility, and purpose-driven experiences.",
-    img: culture3,
+    img: wts1,
   },
   {
     id: 2,
-    title: "Tumba-tumba",
+    title: "Zambawood Resort",
     desc: "Budget-friendly beachfront stay with a family-oriented atmosphere, clean rooms, and direct access to the sea.",
-    img: culture4,
+    img: wts2,
   },
   {
     id: 3,
-    title: "Abal-abal",
+    title: "Prince JB Beach Resort",
     desc: "Budget-friendly beachfront stay with a family-oriented atmosphere, clean rooms, and direct access to the sea.",
-    img: culture1,
+    img: wts3,
   },
   {
     id: 4,
-    title: "Paper Tree Pecnic Area",
+    title: "Mope Beach Resort",
     desc: "Budget-friendly beachfront stay with a family-oriented atmosphere, clean rooms, and direct access to the sea.",
-    img: wtg2,
+    img: wts4,
   },
   {
     id: 5,
-    title: "Pawicare Hatchery",
+    title: "Johneva Beach Resort and Campsite",
     desc: "Budget-friendly beachfront stay with a family-oriented atmosphere, clean rooms, and direct access to the sea.",
-    img: wtg3,
+    img: wts5,
   },
   {
     id: 6,
-    title: "San Sebastian Catholic Church",
+    title: "The Palms Resort & Bar",
     desc: "Budget-friendly beachfront stay with a family-oriented atmosphere, clean rooms, and direct access to the sea.",
-    img: wtg4,
+    img: wts6,
   },
   {
     id: 7,
-    title: "Mang Nanny's Cottages",
+    title: "Dyay Abong Resort",
     desc: "Budget-friendly beachfront stay with a family-oriented atmosphere, clean rooms, and direct access to the sea.",
-    img: wtg5,
+    img: wts7,
   },
-  {
-    id: 8,
-    title: "RRL's Acres Resort",
-    desc: "Budget-friendly beachfront stay with a family-oriented atmosphere, clean rooms, and direct access to the sea.",
-    img: wtg6,
-  },
+  
 ];
 
 
