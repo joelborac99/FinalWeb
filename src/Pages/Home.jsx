@@ -4,6 +4,8 @@ import Slide1 from '../assets/SunSet.jpg'
 import Slide2 from '../assets/tumba2.jpg'
 import wtg1 from '../assets/WTG1.jpg'
 
+import { useNavigate } from 'react-router-dom';
+
 const slides = [
     {
         image: Slide1,
@@ -33,18 +35,21 @@ const MapCard = [
         title: 'See & Do',
         desc: 'Best known for its laid-back surf culture, scenic beaches like Crystal Beach, and natural attractions such as waterfalls and coastal roads. You’ll find a mix of adventure (surfing, hiking) and relaxation (beach resorts, coffee shops) all within this charming town.',
         img: wtg1,
+        route: '/SEE&DO',
     },
     {
         id: 2,
         title: 'Places to stay',
         desc: 'Best known for its laid-back surf culture, scenic beaches like Crystal Beach, and natural attractions such as waterfalls and coastal roads. You’ll find a mix of adventure (surfing, hiking) and relaxation (beach resorts, coffee shops) all within this charming town.',
         img: wtg1,
+        route: '/STAY',
     },
     {
         id: 3,
         title: 'Eat & Drinks',
         desc: 'Best known for its laid-back surf culture, scenic beaches like Crystal Beach, and natural attractions such as waterfalls and coastal roads. You’ll find a mix of adventure (surfing, hiking) and relaxation (beach resorts, coffee shops) all within this charming town.',
         img: wtg1,
+        route: '/EAT&DRINK',
     },
 ]
 
@@ -52,6 +57,7 @@ export default function Home() {
     const [current, setCurrent] = useState(0);
     const [fading, setFading] = useState(false);
 
+    const navigate = useNavigate();
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -132,7 +138,10 @@ export default function Home() {
                             <h1 className='H1'>Explore San Narciso</h1>
                             <div className='DDD'>
                             {MapCard.map((mapcard) =>(
-                                <div className='MapCard' key={mapcard.id}>
+                                <div className='MapCard' key={mapcard.id} 
+                                            onClick={() => navigate(mapcard.route)}
+                                            style={{ cursor: 'pointer' }}
+                                >
                                     <div className='Card-Img'>
                                         <img src={mapcard.img} alt={mapcard.title} className='Cardss' />
                                     </div>
