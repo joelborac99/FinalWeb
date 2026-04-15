@@ -159,7 +159,7 @@ export default function Home() {
                             <div className='BackDrop'>
                                 <div className='inside'>
                                     <span className='Text1'>Loaded with beaches</span>
-                                    <span className='Text2'>Enjoy spending time with your family and friends at one of our beautiful lakes for a spot of fishing, swimming and water skiing.</span>
+                                    <span className='Text2'>Enjoy spending time with your family and friends at one of our beautiful beaches for a spot of relaxation, swimming and surfing.</span>
                                     <button className='Btn1'>Discover our beaches</button>
                                 </div>
                             </div>
@@ -186,6 +186,7 @@ export default function Home() {
 
                             </div>
                             <div className='footer num2'>
+                                
                                 <p className='footerheader'>Explore</p>
                                 <p className='footerlink'>Camping</p>
                                 <p className='footerlink'>History</p>
@@ -202,7 +203,8 @@ export default function Home() {
                             <div className='footer num4'>
                                 <p className='footerheader'>Social</p>
                                 <p className='footerlink'>Instagram</p>
-                                <p className='footerlink'>Facebook</p>
+                                <a href='https://l.facebook.com/l.php?u=https%3A%2F%2Fsannarcisozamb.gov.ph%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExR0c1UTB2MFlTaFFWMjVPenNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6hcxi_QRFIwxxCvTNQuJmsczCJ1QMKLDokqydEUnTTiE3rNeXdL9YExXcLwg_aem_AzVnsh4PohqCb5Z6C5hsBw&h=AT5U8oOLR4vSf58yl_HRoG8QbwPgEmkPPpD72LO6oPdWdUaBr3ZVfLIUQw1Z9yrPqdbebb_K84yPP1YW41OQjPodFqhmrPDVZJzD0L7ljFw_82SHJoaosG6r2WyvvqAp1xzX'>Official Website</a><br />
+                                <a href='https://web.facebook.com/snztourism'>Facebook</a>
                             </div>
                         </div>
                         <div className='Footer2'>
